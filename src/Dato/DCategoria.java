@@ -4,8 +4,6 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
-import java.util.List;
-import javax.swing.table.DefaultTableModel;
 
 /**
  *
@@ -44,7 +42,7 @@ public class DCategoria {
     Connection con;
     PreparedStatement ps;
     ResultSet rs;
-    
+//  LISTAR
     public ArrayList<DCategoria> listar(){
         ArrayList<DCategoria> lista = new ArrayList<>();
         String sql = "SELECT idCategoria, Nombre FROM categoria ORDER BY idCategoria";
@@ -64,7 +62,8 @@ public class DCategoria {
             return new ArrayList<>();
         }        
     }
-    
-    
+//  REGISTRAR
+//  EDITAR  
+//  ELIMINAR
 
 }

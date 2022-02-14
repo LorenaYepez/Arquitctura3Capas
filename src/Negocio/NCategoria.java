@@ -21,7 +21,7 @@ public class NCategoria {
     public NCategoria() {
         dCategoria = new DCategoria();
     }
-
+//  Listar
     public void listar (JTable tabla) {
         
         try {
@@ -38,4 +38,7 @@ public class NCategoria {
             System.out.println( "error listar categorias - NCategoria..." + e.getMessage() );
         }
     }
+//  Registrar
+//  EDITAR
+//  ELIMINAR      
 }
